@@ -1,1 +1,0 @@
-![IMG_7182](https://github.com/KEIO-SLC-SOFTTENNIS/KEIO-SLC-SOFTTENNIS.github.io/assets/173113493/0cc8f3f8-42bb-41ca-bf8a-60c16799c896)
