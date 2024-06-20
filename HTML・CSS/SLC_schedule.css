@@ -301,7 +301,7 @@ footer p {
 @media (max-width: 600px) {
     
     header {
-        height: 40vh;
+        height: 30vh;
     }
 
     .main-header {
