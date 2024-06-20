@@ -210,6 +210,11 @@ footer p {
         flex-direction: column;
     }
 
+    .sns {
+    margin-top: 10px;
+    padding-top: 10px;
+    }
+
     article,
     aside {
         width: 100%;
