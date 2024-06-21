@@ -168,6 +168,10 @@ footer p {
         width: 100%;
     }
 
+    .sub-title {
+    padding: 0 1em 8px;
+    }
+
     /* SNSプラグイン */
     .wrapper {
         flex-direction: column;
