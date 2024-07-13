@@ -36,7 +36,6 @@ header {
 .sub-header {
     text-align: center;
     font-size: 1.3rem;
-    line-height: 50%;
     margin-left: 30px;
     -webkit-text-stroke: 0.4px #fff
 }
@@ -302,7 +301,7 @@ footer p {
 @media (max-width: 600px) {
     
     header {
-        height: 26vh;
+        height: 24vh;
     }
 
     .main-header {
@@ -311,6 +310,7 @@ footer p {
 
     .sub-header {
         font-size: 1rem;
+        line-height: 50%;
     }
 
    .sns {
