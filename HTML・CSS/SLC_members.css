@@ -189,7 +189,7 @@ footer p {
 @media (max-width: 600px) {
     
     header {
-        height: 26vh;
+        height: 22.5vh;
     }
     
     .blur {
@@ -204,6 +204,7 @@ footer p {
 
     .sub-header {
         font-size: 1rem;
+        line-height: 50%;
     }
 
     .news-contents {
