@@ -10,7 +10,7 @@ body {
 /* header */
 
 header {
-    background-image: url(../images/IMG_7182.JPG), url(../images/IMG_7183.JPG), url(../images/IMG_7184.JPG), url(../images/IMG_7228.JPG);
+    background-image: url(../images/IMG_7182.jpg), url(../images/IMG_7183.jpg), url(../images/IMG_7184.jpg), url(../images/IMG_7228.jpg);
     background-repeat: no-repeat;
     background-size: 25% 100%;
     background-position: 0% 0, 33.3% 0, 66.6% 0, 99.9% 0;
