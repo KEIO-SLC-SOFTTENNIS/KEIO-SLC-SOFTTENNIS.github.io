@@ -9,7 +9,22 @@ body {
 
 /* header */
 
-header {
+.home-header {
+    background-image: url(../images/IMG_7182.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 140vh;
+    padding: 0;
+}
+
+.home-sns {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 25px;
+    gap: 15px;
+}
+
+.normal-header {
     background-image: url(../images/IMG_7182.jpg), url(../images/IMG_7183.jpg), url(../images/IMG_7184.jpg), url(../images/IMG_7228.jpg);
     background-repeat: no-repeat;
     background-size: 25% 100%;
@@ -39,7 +54,7 @@ header {
     margin-left: 30px;
     -webkit-text-stroke: 0.4px #fff
 }
-.sns {
+.normal-sns {
     display: flex;
     justify-content: flex-end;
     padding-right: 25px;
@@ -116,7 +131,7 @@ nav div li {
 }
 
 /* 記事部分 */
-
+/* 共通 */
 article {
     width: 74%;
 }
@@ -131,6 +146,99 @@ section h2 {
     border-bottom: 2px solid #333;
     padding-bottom: 0.5em;
 }
+
+/* SLC_home */
+.home_red {
+    font-size: 1.3rem;
+    color: #fd1b1b;
+}
+
+.home_contents {
+    font-size: 1.5rem;
+    border-bottom: 1px solid #333;
+}
+
+/* SLC_members */
+.member_position {
+    font-size: 1.5rem;
+}
+
+.member_contents {
+    display: flex;
+    justify-content: space-between;
+}
+
+.member_contents_list {
+    list-style: none;
+    padding: 10px;
+}
+
+.member_name {
+    font-size: 1.3rem;
+}
+
+.member_introduction {
+    font-size: 1rem;
+}
+
+/* SLC_schedule */
+.month{
+    font-size: 1.3rem;   
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+}
+
+.scedule_images_list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.scedule_images {
+    list-style: none;
+}
+
+#April {
+    background: #fcbadf;
+}
+#May {
+    background: #87b2eb;
+}
+#June {
+    background: #dd9ff4;
+}
+#July {
+    background: #a8f7af;
+}
+#August {
+    background: rgb(237, 228, 134);
+}
+#September {
+    background: #eebc82;
+}
+#October {
+    background: #f7daba;
+}
+#November {
+    background: #e0ded7;
+}
+#December {
+    background: #c8ebed;
+}
+#January {
+    background: #fd7a7a;
+}
+#February {
+    background: #b8f1e0;
+}
+#March {
+    background: #9be0b5;
+}
+
+/* SLC_activities */
 
 /* サイドバー */
 
@@ -161,6 +269,26 @@ footer p {
     font-size: 0.875rem;
 }
 
+/* SNSプラグイン */
+
+.plagin {
+    background: #FAF7F0;
+    padding: 4% 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub-sns {
+    margin-bottom: 30px;
+    border-bottom: 2px #000 solid;
+}
+
+.sns-box {
+    width: 30%;
+}
 
 /* ------モバイル版------ */
 
@@ -198,5 +326,19 @@ footer p {
     article,
     aside {
         width: 100%;
+    }
+
+ /* SNSプラグイン */
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .sns-box {
+        width: 90%;
+    }
+
+    .sub-sns,
+    .sns-box {
+        padding-left: 20px;
     }
 }
