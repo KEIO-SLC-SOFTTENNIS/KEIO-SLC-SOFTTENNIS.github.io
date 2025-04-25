@@ -306,11 +306,7 @@ footer p {
     }
 
     .home-header {
-        background-image: url(../images/header1.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 70vh;
-        padding: 0;
+        width: 100%;
     }
     .main-header {
         font-size: 1.5rem;
