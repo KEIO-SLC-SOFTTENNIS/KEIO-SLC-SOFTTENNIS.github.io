@@ -340,6 +340,7 @@ footer p {
         width: 100%;
     }
 
+    .member_contents,
     .schedule_images_list {
         display: flex;
         flex-direction: column;
