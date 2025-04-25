@@ -10,7 +10,7 @@ body {
 /* header */
 
 .home-header {
-    background-image: url(../images/IMG_7182.jpg);
+    background-image: url(../images/header1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 140vh;
@@ -25,7 +25,7 @@ body {
 }
 
 .normal-header {
-    background-image: url(../images/IMG_7182.jpg), url(../images/IMG_7183.jpg), url(../images/IMG_7184.jpg), url(../images/IMG_7228.jpg);
+    background-image: url(../images/header1.jpg), url(../images/header2.jpg), url(../images/header3.jpg), url(../images/header4.jpg);
     background-repeat: no-repeat;
     background-size: 25% 100%;
     background-position: 0% 0, 33.3% 0, 66.6% 0, 99.9% 0;
@@ -326,6 +326,10 @@ footer p {
     article,
     aside {
         width: 100%;
+    }
+
+    .schedule_images_list {
+        justify-content: space-around;
     }
 
  /* SNSプラグイン */
