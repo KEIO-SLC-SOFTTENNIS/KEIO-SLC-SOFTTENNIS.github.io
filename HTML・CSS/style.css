@@ -336,12 +336,18 @@ footer p {
     .member_contents,
     .schedule_images_list {
         display: flex;
-        justify-content:left;
+        justify-content:center;
+        padding-left: 0;
         flex-direction: column;
+    }
+
+    .member_contents_list {
+        padding: 0px;
     }
 
  /* SNSプラグイン */
     .wrapper {
+        justify-content: center;
         flex-direction: column;
     }
 
