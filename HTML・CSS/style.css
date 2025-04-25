@@ -294,11 +294,6 @@ footer p {
 
 @media (max-width: 600px) {
     
-    header {
-        height: 22.5vh;
-
-    }
-    
     .blur {
         backdrop-filter: blur(4px);
         width: 100%;
@@ -306,8 +301,10 @@ footer p {
     }
 
     .home-header {
-        width: 600px;
+        width: 100%;
+        height:auto;
     }
+
     .main-header {
         font-size: 1.5rem;
     }
