@@ -192,12 +192,12 @@ section h2 {
     line-height: 80px;
 }
 
-.scedule_images_list {
+.schedule_images_list {
     display: flex;
     justify-content: space-around;
 }
 
-.scedule_images {
+.schedule_images {
     list-style: none;
 }
 
@@ -341,7 +341,9 @@ footer p {
     }
 
     .schedule_images_list {
-        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 
  /* SNSプラグイン */
