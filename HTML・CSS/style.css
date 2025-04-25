@@ -314,10 +314,15 @@ footer p {
         line-height: 50%;
     }
 
-    .sns {
-    margin-top: 10px;
-    padding-top: 10px;
+    .home-sns {
+        margin-top: 10px;
+        padding-top: 10px;
     }
+
+    .normal-sns {
+        margin-top: 10px;
+        padding-top: 10px;
+        }
 
     .news-contents {
         flex-direction: column;
