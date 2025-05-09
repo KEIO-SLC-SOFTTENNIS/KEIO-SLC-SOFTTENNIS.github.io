@@ -396,6 +396,43 @@ footer p {
         padding: 0px;
     }
 
+    .windmill {
+        display: grid;
+        grid-template-columns: 1fr, 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        justify-content: space-around;
+    }
+    .w_top-left {
+        width: 400px;
+        height: 300px;
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .w_top-right {
+        width: 200px;
+        height: 350px;
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .w_bottom-left {
+        width: 200px;
+        height: 350px;
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .w_bottom-right {
+        width: 400px;
+        height: 300px;
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+    .w_center {
+        width: 400px;
+        height: 300px;
+        grid-column: 1/3;
+        grid-row: 4/5;
+    }
+    
  /* SNSプラグイン */
     .wrapper {
         justify-content: center;
