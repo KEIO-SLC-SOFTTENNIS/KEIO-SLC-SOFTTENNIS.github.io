@@ -22,6 +22,7 @@ body {
     justify-content: flex-end;
     padding-right: 25px;
     gap: 15px;
+    list-style: none;
 }
 
 .normal-header {
@@ -45,14 +46,15 @@ body {
     margin-left: 20px;
     padding-top: 30px;
     color: #000;
-    -webkit-text-stroke: 0.6px #fff
+    text-shadow: 
+    0px 0px 5px #fff
 }
 
 .sub-header {
     text-align: center;
     font-size: 1.3rem;
     margin-left: 30px;
-    -webkit-text-stroke: 0.4px #fff
+    text-shadow: 0px 0px 5px #fff;
 }
 .normal-sns {
     display: flex;
@@ -145,6 +147,13 @@ section h2 {
     font-size: 1.8rem;
     border-bottom: 2px solid #333;
     padding-bottom: 0.5em;
+    text-shadow: 2px 2px 5px #eebc82;
+
+}
+
+section h3 {
+    font-size: 1.6rem;
+    margin: 1em 0;
 }
 
 /* SLC_home */
@@ -239,6 +248,48 @@ section h2 {
 }
 
 /* SLC_activities */
+
+.windmill {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    position: relative;
+}
+.windmill_img {
+    object-fit: cover;
+    display: block;
+}
+.w_top-left {
+    width: 600px;
+    height: 300px;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.w_top-right {
+    width: 300px;
+    height: 600px;
+    grid-column: 3/4;
+    grid-row: 1/3;
+}
+.w_bottom-left {
+    width: 300px;
+    height: 600px;
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+.w_bottom-right {
+    width: 600px;
+    height: 300px;
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+.w_center {
+    width: 300px;
+    height: 300px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
 
 /* サイドバー */
 
