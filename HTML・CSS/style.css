@@ -8,13 +8,20 @@ body {
 }
 
 /* header */
-
 .home-header {
     background-image: url(../images/header1.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     height: 140vh;
     padding: 0;
+}
+
+.home-sns img, .normal-sns img {
+    transition: transform 1s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.home-sns img:hover, .normal-sns img:hover {
+    transform: scale(1.15) rotate(-10deg);
 }
 
 .home-sns {
@@ -138,9 +145,22 @@ article {
     width: 74%;
 }
 
+.card {
+    background: #fff;
+    margin: 40px auto;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    max-width: 700px;
+}
+
 section {
-    padding: 2em;
-    margin: 1em 0;
+    background: #fff;
+    margin: 40px auto;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    max-width: 700px;
 }
 
 section h2 {
