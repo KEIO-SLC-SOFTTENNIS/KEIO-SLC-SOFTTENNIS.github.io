@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Noto Sans JP', Arial, sans-serif;
+    color: #0f1e41;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -18,7 +19,6 @@ body {
 
 .home-sns img, .normal-sns img {
     transition: transform 1s;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 .home-sns img:hover, .normal-sns img:hover {
     transform: scale(1.15) rotate(-10deg);
@@ -52,7 +52,6 @@ body {
     font-size: 2rem;
     margin-left: 20px;
     padding-top: 30px;
-    color: #000;
     text-shadow: 
     0px 0px 5px #fff
 }
@@ -83,15 +82,13 @@ nav div li {
             box-sizing: border-box;
   }
   .breadcrumb {
-    margin-top: 50px;
     padding: 1em 2em;
-    background-color: #ede8e8;
-    color: #fff;
+    background: linear-gradient(90deg, #f7e6c4 0%, #eebc82 100%);
+    color: #223a70;
     border-radius: 0.5em;
   }
   .breadcrumb a {
     text-decoration: none;
-    color: #223a70;
   }
   .breadcrumb .breadcrumbs {
     padding-left: 0;
@@ -106,10 +103,11 @@ nav div li {
     position: relative;
     padding-right: calc(16px + 8px);
     margin-right: 8px;
-    color: #f00b0b;
+    color: #223a70;
   }
   .breadcrumb li::before {
-    content: '›';
+    content: '>';
+    color:#eebc82;
     width: 1em;
     height: 1em;
     line-height: 1;
@@ -125,7 +123,6 @@ nav div li {
   .breadcrumb li:last-child {
     margin-right: 0;
     padding-right: 0;
-    color: #223a70;
   }
   .breadcrumb li:last-child::before {
     content: normal;
@@ -158,14 +155,15 @@ article {
 
 
 section h2 {
-    font-size: 1.8rem;
-    border-bottom: 2px solid #333;
+    font-size: 2rem;
+    border-bottom: 3px solid #eebc82;
     padding-bottom: 0.5em;
-    text-shadow: 2px 2px 5px #eebc82;
-
+    letter-spacing: 0.1em;
+    text-shadow: 2px 2px 8px #f7e6c4;
 }
 
 section h3 {
+    text-shadow: 2px 2px 8px #f7e6c4;
     font-size: 1.6rem;
     margin: 1em 0;
 }
@@ -354,6 +352,9 @@ footer p {
 .sns-box {
     width: 30%;
 }
+
+/* ------サイドメニュー------ */
+
 
 /* ------モバイル版------ */
 
