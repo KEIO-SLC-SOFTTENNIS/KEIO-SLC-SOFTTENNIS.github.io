@@ -38,7 +38,7 @@
 
         <!--記事部分-->
         <article>
-            <section>
+            <section class="card">
                 <h2>SLCへようこそ！</h2>
                 <p> SLCソフトテニス部は慶應義塾唯一の公認ソフトテニスサークルです！</p>
                 <p> 基本的に活動は<span class="home_red">自由参加</span>で<span class="home_red">月～金の週5日</span>という形をとっています。</p>
@@ -64,20 +64,20 @@
 
         <!--サイドメニュー-->
         <aside>
+        
+                <h5 class="sub-title">カテゴリー</h5>
+                <ul class="sub-menu">
+                    <li><a href="index.html">ホーム</a></li>
+                    <li><a href="HTML・CSS/SLC_schedule.html">年間スケジュール</a></li>
+                    <li><a href="HTML・CSS/SLC_activities.html">活動報告</a></li>
+                    <li><a href="HTML・CSS/SLC_members.html">メンバー紹介</a></li>
+                </ul>
 
-            <h5 class="sub-title">カテゴリー</h5>
-            <ul class="sub-menu">
-                <li><a href="index.html">ホーム</a></li>
-                <li><a href="HTML・CSS/SLC_schedule.html">年間スケジュール</a></li>
-                <li><a href="HTML・CSS/SLC_activities.html">活動報告</a></li>
-                <li><a href="HTML・CSS/SLC_members.html">メンバー紹介</a></li>
-            </ul>
-
-            <h5 class="sub-title">アーカイブ</h5>
-            <ul class="archive-menu">
-                <li><a href="活動報告/SLC_activities_2025.html">2025年度</a></li>
-            </ul>
-
+                <h5 class="sub-title">アーカイブ</h5>
+                <ul class="archive-menu">
+                    <li><a href="活動報告/SLC_activities_2025.html">2025年度</a></li>
+                </ul>
+            
         </aside>
     </div>
 
@@ -103,6 +103,16 @@
         <p><small>&copy; KEIO SLC SOFTTENNIS All Rights Reserved.</small></p>
     </footer>
 
+    <script>
+    document.getElementById('toggleSidebar').onclick = function() {
+        var content = document.getElementById('sidebarContent');
+        if(content.style.display === 'none'){
+            content.style.display = '';
+        }else{
+            content.style.display = 'none';
+        }
+    };
+    </script>
 </body>
 
 
