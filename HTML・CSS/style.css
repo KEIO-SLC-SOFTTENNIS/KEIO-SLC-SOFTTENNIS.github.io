@@ -14,22 +14,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 140vh;
-    padding: 0;
-}
-
-.home-sns img, .normal-sns img {
-    transition: transform 1s;
-}
-.home-sns img:hover, .normal-sns img:hover {
-    transform: scale(1.15) rotate(-10deg);
-}
-
-.home-sns {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 25px;
-    gap: 15px;
-    list-style: none;
 }
 
 .normal-header {
@@ -38,7 +22,6 @@ body {
     background-size: 25% 100%;
     background-position: 0% 0, 33.3% 0, 66.6% 0, 99.9% 0;
     height: 35vh;
-    padding: 0;
 }
 
 .blur {
@@ -52,8 +35,7 @@ body {
     font-size: 2rem;
     margin-left: 20px;
     padding-top: 30px;
-    text-shadow: 
-    0px 0px 5px #fff
+    text-shadow: 0px 0px 5px #fff;
 }
 
 .sub-header {
@@ -62,13 +44,29 @@ body {
     margin-left: 30px;
     text-shadow: 0px 0px 5px #fff;
 }
+
+/* SNS共通スタイル */
+.home-sns,
 .normal-sns {
     display: flex;
     justify-content: flex-end;
     padding-right: 25px;
     gap: 15px;
+    list-style: none;
+}
+
+.home-sns img,
+.normal-sns img {
+    transition: transform 1s;
+}
+
+.home-sns img:hover,
+.normal-sns img:hover {
+    transform: scale(1.15) rotate(-10deg);
+}
+
+.normal-sns {
     margin-top: 30px;
-    
 }
 
 nav div li {
@@ -77,37 +75,44 @@ nav div li {
 
 /* Breadcrumb */
 
-.breadcrumb *, .breadcrumb *:after, .breadcrumb *:before {
+.breadcrumb *,
+.breadcrumb *:after,
+.breadcrumb *:before {
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-  .breadcrumb {
+    box-sizing: border-box;
+}
+
+.breadcrumb {
     padding: 1em 2em;
     background: linear-gradient(90deg, #f7e6c4 0%, #eebc82 100%);
     color: #223a70;
     border-radius: 0.5em;
-  }
-  .breadcrumb a {
+}
+
+.breadcrumb a {
     text-decoration: none;
-  }
-  .breadcrumb .breadcrumbs {
+}
+
+.breadcrumb .breadcrumbs {
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-  }
-  .breadcrumb li {
+}
+
+.breadcrumb li {
     display: inline-block;
     position: relative;
     padding-right: calc(16px + 8px);
     margin-right: 8px;
     color: #223a70;
-  }
-  .breadcrumb li::before {
+}
+
+.breadcrumb li::before {
     content: '>';
-    color:#eebc82;
+    color: #eebc82;
     width: 1em;
     height: 1em;
     line-height: 1;
@@ -118,15 +123,17 @@ nav div li {
     top: 50%;
     right: 0;
     -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-  }
-  .breadcrumb li:last-child {
+    transform: translateY(-50%);
+}
+
+.breadcrumb li:last-child {
     margin-right: 0;
     padding-right: 0;
-  }
-  .breadcrumb li:last-child::before {
+}
+
+.breadcrumb li:last-child::before {
     content: normal;
-  }
+}
 
 /* main */
 
@@ -148,7 +155,7 @@ article {
     margin: 20px auto;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 0 8px 32px rgba(34,58,112,0.12);
+    box-shadow: 0 8px 32px rgba(34, 58, 112, 0.12);
     max-width: 700px;
     transition: box-shadow 0.3s, transform 0.3s;
 }
@@ -203,8 +210,8 @@ section h3 {
 }
 
 /* SLC_schedule */
-.month{
-    font-size: 1.3rem;   
+.month {
+    font-size: 1.3rem;
     display: inline-block;
     width: 80px;
     height: 80px;
@@ -225,36 +232,47 @@ section h3 {
 #April {
     background: #fcbadf;
 }
+
 #May {
     background: #87b2eb;
 }
+
 #June {
     background: #dd9ff4;
 }
+
 #July {
     background: #a8f7af;
 }
+
 #August {
     background: rgb(237, 228, 134);
 }
+
 #September {
     background: #eebc82;
 }
+
 #October {
     background: #f7daba;
 }
+
 #November {
     background: #e0ded7;
 }
+
 #December {
     background: #c8ebed;
 }
+
 #January {
     background: #fd7a7a;
 }
+
 #February {
     background: #b8f1e0;
 }
+
 #March {
     background: #9be0b5;
 }
@@ -262,40 +280,46 @@ section h3 {
 /* SLC_activities */
 
 .windmill {
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 10px;
     position: relative;
 }
+
 .windmill_img {
     object-fit: cover;
     display: block;
 }
+
 .w_top-left {
     width: 600px;
     height: 300px;
     grid-column: 1/3;
     grid-row: 1/2;
 }
+
 .w_top-right {
     width: 300px;
     height: 600px;
     grid-column: 3/4;
     grid-row: 1/3;
 }
+
 .w_bottom-left {
     width: 300px;
     height: 600px;
     grid-column: 1/2;
     grid-row: 2/4;
 }
+
 .w_bottom-right {
     width: 600px;
     height: 300px;
     grid-column: 2/4;
     grid-row: 3/4;
 }
+
 .w_center {
     width: 300px;
     height: 300px;
@@ -359,16 +383,8 @@ footer p {
 /* ------モバイル版------ */
 
 @media (max-width: 600px) {
-    
-    .blur {
-        backdrop-filter: blur(4px);
-        width: 100%;
-        height: 100%;
-    }
-
     .home-header {
-        width: 100%;
-        height:auto;
+        height: auto;
     }
 
     .main-header {
@@ -377,7 +393,7 @@ footer p {
 
     .sub-header {
         font-size: 1rem;
-        line-height: 50%;
+        line-height: 1.5;
     }
 
     .home-sns {
@@ -388,7 +404,7 @@ footer p {
     .normal-sns {
         margin-top: 60px;
         padding-top: 10px;
-        }
+    }
 
     .news-contents {
         flex-direction: column;
@@ -401,65 +417,65 @@ footer p {
 
     .member_contents,
     .schedule_images_list {
-        display: flex;
-        justify-content:center;
-        padding-left: 0;
         flex-direction: column;
+        padding-left: 0;
     }
 
     .member_contents_list {
-        padding: 0px;
+        padding: 0;
     }
 
     .windmill {
-        display: grid;
-        grid-template-columns: 1fr, 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        justify-content: space-around;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 1fr);
     }
+
     .w_top-left {
         width: 400px;
         height: 300px;
         grid-column: 1/3;
         grid-row: 1/2;
     }
+
     .w_top-right {
         width: 200px;
         height: 350px;
         grid-column: 1/2;
         grid-row: 2/3;
     }
+
     .w_bottom-left {
         width: 200px;
         height: 350px;
         grid-column: 2/3;
         grid-row: 2/3;
     }
+
     .w_bottom-right {
         width: 400px;
         height: 300px;
         grid-column: 1/3;
         grid-row: 3/4;
     }
+
     .w_center {
         width: 400px;
         height: 300px;
         grid-column: 1/3;
         grid-row: 4/5;
     }
-    
- /* SNSプラグイン */
+
     .wrapper {
-        justify-content: center;
         flex-direction: column;
+        align-items: center;
     }
 
     .sns-box {
         width: 90%;
+        padding-left: 20px;
     }
 
-    .sub-sns,
-    .sns-box {
+    .sub-sns {
         padding-left: 20px;
     }
 }
