@@ -35,14 +35,14 @@ body {
     font-size: 2rem;
     margin-left: 20px;
     padding-top: 30px;
-    text-shadow: 0px 0px 5px #fff;
+    text-shadow: 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 10px #fff;
 }
 
 .sub-header {
     text-align: center;
     font-size: 1.3rem;
     margin-left: 30px;
-    text-shadow: 0px 0px 5px #fff;
+    text-shadow: 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 10px #fff;
 }
 
 /* SNS共通スタイル */
