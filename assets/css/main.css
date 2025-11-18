@@ -94,6 +94,7 @@ button {
     margin: 0 auto;
     padding: clamp(2.5rem, 6vw, 5rem) clamp(1.25rem, 4vw, 2.75rem) 3rem;
     display: flex;
+    text-align: center;
     flex-direction: column;
     gap: 1.25rem;
 }
@@ -114,14 +115,14 @@ button {
 }
 
 .site-header__title {
-    font-size: clamp(3.5rem, 6vw, 3rem);
+    font-size: clamp(2.4rem, 6vw, 3rem);
     text-align: center;
     margin: 0;
 }
 
 .site-header__lead {
     font-size: 1.05rem;
-    max-width: 60ch;
+    max-width: 1000ch;
     margin-bottom: 0.5rem;
 }
 
